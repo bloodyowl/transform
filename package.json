@@ -1,0 +1,68 @@
+{
+  "name": "bloody-transform",
+  "version": "0.0.0",
+  "description": "creates partial functions that take one argument",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/transform.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/transform/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/transform",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "firefox": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "safari": [
+        4,
+        5.1,
+        6
+      ],
+      "opera": [
+        10,
+        11,
+        12
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ],
+      "android-browser": [
+        4.2
+      ]
+    }
+  }
+}
