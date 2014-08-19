@@ -3,6 +3,8 @@
 [![browser support](https://ci.testling.com/bloodyowl/transform.png)
 ](https://ci.testling.com/bloodyowl/transform)
 
+[![Build Status](https://travis-ci.org/bloodyowl/transform.svg)](https://travis-ci.org/bloodyowl/transform)
+
 creates partial functions that take one argument
 
 useful for APIs like promises `.then` which let functions you pass in it take one argument only. 
